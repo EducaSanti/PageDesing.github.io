@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Santiago castañeda alvarez">
+    <meta name="description" content="Creacion de paginas webs">
+    <meta name="keywords" content="Pagina web">
+    <link rel="shortcut icon" href="imagenes/pintada.png">
+    <title>PageDesign</title>
+    <link rel="stylesheet" href="estilos/recuperar.css">
+</head>
+
+<body>
+    <header class="inicio">
+        <h1>Personaliza tu propia web</h1>
+    </header>
+    <section class="">
+        <nav>
+            <a id="casita" href="index.html"><img id="casa" src="imagenes/casa.png" alt="inicio"></a>
+            <a href="temas.html"><button>Temas</button></a>
+            <a href="formulario.html"><button>Registrarse</button></a>
+            <a href="mapaweb.html"><button>Mapa web</button></a>
+            <a href="noticias.html"><button>Noticias</button></a>
+            <a href="patrones.html"><button>Patrones</button></a>
+            <a href="Desarrolladores.html"><button>Desarrolladores</button></a>
+            <a href="acerca.html"><button>Acerca de</button></a>
+            <a href="soporte.html"><button>Soporte</button></a>
+        </nav>
+        <article>
+            <form action="URK" method="POST" enctype="text/plain">
+                <legend>Recuperar Contraseña</legend>
+                <label for="correo">Email*</label>
+                <input type="email" name="correo" id="correo-form" required placeholder="Email"/>
+                <label for="tel">Télefono*</label>
+                <input type="tel" name="telefono" id="telefono-form" pattern="[0-9][9]" required placeholder="Télefono"/>
+                <label for="contraseña">Contraseña*</label>
+                <input type="password" name="contraseña" id="contraseña-form" pattern="[a-zA-Z][6][0-9][2]" required placeholder="contraseña"/>
+                <label for="repetir">Vuelve a escribir tu contraseña*</label>
+                <input type="password" name="repetir-contraseña" id="repetir-contraseña" pattern="[a-zA-Z][6][0-9][2]" required placeholder="Repetir contraseña"/>
+                <input type="submit" value="enviar"/>
+            </form>
+        </article>
+    </section>
+    <footer class="contactos">
+        <div class="contenedor-principal-pie">
+
+            <div class="contenedor-piepagina">
+                <label for="telefono-contacto">Télefono de contacto</label><br />
+                <p id="telefono">+34 734 789 145</p><br />
+                <label for="correo-contacto">Correo electrónico</label><br />
+                <p id="correo">Diseñopagina@gmail.com</p><br />
+                <a href="mapaweb.html">Mapa web</a>
+            </div>
+            <div class="contenedor-redes">
+                <ul id="pie-redes">
+                    <li><a href="https://www.instagram.com"><img id="redes-sociales-pie" src="imagenes/instagram.png"
+                                alt="instagram"></a></li>
+                    <li><a href="https://twitter.com"><img id="redes-sociales-pie" src="imagenes/twitter.png"
+                                alt="twitter"></a></li>
+                    <li><a href="https://es.linkedin.com "><img id="redes-sociales-pie" src="imagenes/linkedin.png"
+                                alt="linkedin"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
